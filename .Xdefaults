@@ -1,0 +1,43 @@
+URxvt.scrollBar: false
+
+URxvt.font: xft:Terminus:size=8,\
+            xft:Kochi Gothic:antialias=false
+
+! Colour scheme
+
+URxvt*foreground: #222222
+URxvt*background: #ffffff
+
+! Colour Normal Bright
+! black  0      8
+! red    1      9
+! green  2      10
+! yellow 3      11
+! blue   4      12
+! purple 5      13
+! cyan   6      14
+! white  7      15
+
+URxvt*color0: #1a1a1a
+URxvt*color8: #232323
+
+URxvt*color1: #dd9099
+URxvt*color9: #f0aaa0
+
+URxvt*color2: #99d0bb
+URxvt*color10: #a0e0c0
+
+URxvt*color3: #bbdd99
+URxvt*color11: #cce0a0
+
+URxvt*color4: #7799dd
+URxvt*color12: #99aae0
+
+URxvt*color5: #bb99dd
+URxvt*color13: #ccaae0
+
+URxvt*color6: #77bbdd
+URxvt*color14: #99ddee
+
+URxvt*color7: #cccccc
+URxvt*color15: #efefef
