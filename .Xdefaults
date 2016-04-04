@@ -3,6 +3,17 @@ URxvt.scrollBar: false
 URxvt.font: xft:Terminus:size=8,\
             xft:Kochi Gothic:antialias=false
 
+! Increase line height
+URxvt.lineSpace: 1
+
+! Terminal padding
+URxvt.internalBorder: 6
+
+! Disable Ctrl-Shift 'Keycap' bind
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
+
 ! Colour scheme
 
 URxvt*foreground: #222222
