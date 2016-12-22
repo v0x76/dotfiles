@@ -158,11 +158,7 @@
 }
 
 #TabsToolbar .tabs-newtab-button {
-    /*    border-width: 1px 1px 0 1px !important;
-    margin: 0 !important;
-    width: auto !important;
-    padding: 0 5px !important;*/
-display: none !important;
+    display: none !important;
 }
 
 #addon-bar,
@@ -219,7 +215,7 @@ display: none !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     box-shadow: none !important;
-    margin-top: 7px !important;
+    margin-top: 5px !important;
     width: 10px !important;
     border: none !important;
 }
