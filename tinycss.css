@@ -1,14 +1,73 @@
+/* Made to fit i3wm */
+
+/*!noha/.gytc*/
+/*noha-ra.deviantart.com*/
+/* Mutilated by veq */
+
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+/* BUTTONS */
+#back-button .toolbarbutton-icon,
+#forward-button .toolbarbutton-icon,
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon,
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon,
+#new-tab-button .toolbarbutton-icon,
+#appmenu-button .button-icon
+{
+    list-style-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAALCAYAAADLA1tMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5xJREFUeNrsVk1IG0EU3s3mx1RXY2qxaa0ULFakUogUESUnPaS0Wlo1oifbQ0AUDx704EGIeBAkUXOzEq0/kHpose2h2IbexUKLFA8VokIPKaghrfmpyfa9dELHcTai0FsXNpPZ+d43b9773tsVFUUR/l+CoM38EUWRXZPg1sCdgjuJDzJBI9gT61kukeyFNgrBJ8n/NC9waii+FGWr9vzUdcKb8VWifBVpG8RpVByXent7rywtLSX6+voKeAB8juuII5sIKk5qAZs/OzvrWVxc3Jufn38zPT39hASGjr5mYWEh0NTUVEDxSTgHuy+Ei5tMWP9IJ5W9enp6isDX+OTk5H3CfcKGR64dGhq6UVtbu7OxsXFzYmIizCPH57iOOMRzHNE0NzcXwsE/GAyGYgjE4MrKyrWDgwOvTqezQTAeMwFMra+vO9rb27/bbDYZ5rq6urpch8OxOzMzc0dFDZlsl2VJhuD1eiM4ms1mNySlGLlZGzYQksvlulVZWbm5trZ2fXR0dCuL7JO4jjjEox1NDGuXW1pa3oI0S6uqql5Fo9Ejv9+/Bwp6HYlElnNyclrZQLjd7tDY2JjZ6XRuw9zY3d39rbOz81IgEIhwykWPGLgNsEd6JHO9mnrC4bDParW6MRDE5m/t0nXf1dWV19jYGIHM3B4fH9+Exwm25jj9RN/f319RXV39aXV1Vfb5fD8yzjY0NBQBZxAcGITDvxgYGNhFc1BKUVtb2zYc0gzzGFXLAsmWEaQc7ujowDKJwv1LpRzKyIHEP+4piN0CXiuMRxTvBeD7CXxmUOjLUCj0zGKxPIV5Lqwdps+FP9SbQyJGcciGhZUbg03jEYd4tOPI0zA3N/fe4/E8pDKlnZqaegAOvSNZPLY/9IRCOCSWYz7wHoGUr3J4aUWYAIdqMbGKoHiNBJOHZQx7f4W5QnwWeM0SyyAGkTLV19cHQe4VWWoPy6gCcYhHO04ZJROJxHOTyfQIDn8XlHARxnuyLLfGYrFlBq+x2+0y9IQg9IRSVAKWSU1Nzfbw8DDrR4qoFRUQJ0qIk3mC108IJjkyMhLc3993CRyAwPmWwAAZscsTqfKwOrJuzNLRUZc6aIxOVADgD3HEOeEVqcyl5Q4dvph+a5SXl8uojJKSEr3KHnqw+0yUIPBKmcGIRCEKrUhRpe6572cGe9r7nQ5G5j0unvM7QiL4835HsJhjnLwekfU6C/Ys17/6uj3LuX4LMACwT+lvQQrZSgAAAABJRU5ErkJggg==")!important;
+}
+#back-button .toolbarbutton-icon
+{ 
+    -moz-image-region:rect(0, 11px, 11px, 0)!important;
+}
+#forward-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 22px, 11px, 11px)!important;
+}
+#reload-button .toolbarbutton-icon,
+#urlbar-reload-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 33px, 11px, 22px)!important;
+}
+#stop-button .toolbarbutton-icon,
+#urlbar-stop-button .toolbarbutton-icon,
+#tabbrowser-tabs tab .tab-close-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 44px, 11px, 33px)!important;
+}
+#new-tab-button .toolbarbutton-icon
+{
+    -moz-image-region:rect(0, 55px, 11px, 44px)!important;
+}
+#new-tab-button
+{
+    max-width:16px!important;
+}
+#appmenu-button .button-icon
+{
+    -moz-image-region:rect(0, 66px, 11px, 55px)!important;
+}
+#main-window[sizemode="normal"] .toolbarbutton-1
+{
+    margin-top:3px!important;
+}
+#main-window *[id*="-button"]:not([disabled]):hover
+{
+    background:transparent!important;
+}
 
 #private-browsing-indicator { display: none; }
 
-/*tab-width*/
+/* TABS */
 .tabbrowser-tabs:not([drag=detach]) > .tabbrowser-tab:not([pinned])[fadein] {
     min-width: 20px !important;
     max-width: 220px !important;
 }
 
-/*remove shitty fog*/
+/* Remove shitty fog */
 #TabsToolbar:not(:-moz-lwtheme)::after { display: none; }
 
 #TabsToolbar {
@@ -120,16 +179,14 @@ display: none !important;
     padding-bottom: 6px !important;
 }
 
-
 /* URL BAR */
 
-/* remove back/fwd */
+/* Remove back/forward buttons */
 #nav-bar  #back-button,
 #forward-button {
     display: none !important;
 }
 
-/*styling*/
 #searchbar > .searchbar-textbox,
 #urlbar {
     border: none !important;
@@ -165,7 +222,6 @@ display: none !important;
     margin-top: 7px !important;
     width: 10px !important;
     border: none !important;
-    /*display: none !important; /*COMMENT THIS LINE FOR A MENU BUTTON*/
 }
 /*#PanelUI-button:hover {
     background-position: 100% 0, calc(100% - 1px) 0, calc(100% - 2px) 0;
@@ -186,25 +242,15 @@ display: none !important;
     margin-right: -15px !important;
 }
 
-#identity-box, #dropmarker-icon, #historydropmarker, #autocomplete-history-dropmarker, #urlbar-history-dropmarker, #dropmarker {
-    display: none !important;
-}
-
-#autocomplete-history-dropmarker, #urlbar-history-dropmarker, #urlbar-reload-button {
-    display: none !important;
-}
-
-.autocomplete-history-dropmarker.urlbar-history-dropmarker {
-    display: none !important;
-}
-
+#identity-box, #dropmarker-icon, #historydropmarker, #autocomplete-history-dropmarker, #urlbar-history-dropmarker, #dropmarker, 
+#autocomplete-history-dropmarker, #urlbar-history-dropmarker, #urlbar-reload-button,
+.autocomplete-history-dropmarker.urlbar-history-dropmarker,
 #plugins-notification-icon, #notification-anchor-icon, #notification-popup-box {
     display: none !important;
-
 }
 
-/*download button
-#downloads-button {
+/* Download button */
+/*#downloads-button {
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAAAIElEQVR42mNgGABQAQODQUMFNkCaHtr4AaKHYRTQEwAA93kjKYvyf4UAAAAASUVORK5CYII=) !important;
     background-repeat: no-repeat  !important;
     background-position: center !important;
@@ -234,11 +280,6 @@ display: none !important;
 }*/
 
 /* remove tab scrolling */
-
 .scrollbutton-up, .scrollbutton-down, #alltabs-button {
     display: none !important;
 }
-
-/*!noha/.gytc*/
-/*noha-ra.deviantart.com*/
-/* Mutilated by veq */
