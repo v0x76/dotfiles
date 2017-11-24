@@ -26,6 +26,11 @@ a.ukkohide {
     font-weight: 400;
 }
 
+form[name="postcontrols"] {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
 .post input.delete { visibility: hidden; }
 .post:hover input.delete { visibility: visible; }
 
