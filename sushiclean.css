@@ -37,6 +37,7 @@ form[name="postcontrols"] {
 .post .intro time { color: #444; }
 
 div.post.reply {
+    width: 100%;
     padding: 4px 6px 8px;
     border: none;
     background: none;
